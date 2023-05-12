@@ -1,3 +1,3 @@
 #!/bin/bash
-clang -Wall -pedantic -Werror -Wextra -c *.c
+clang -c *.c
 ar -rc liball.a *.o
